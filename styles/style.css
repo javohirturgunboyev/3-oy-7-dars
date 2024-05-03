@@ -1,0 +1,162 @@
+.container{
+max-width: 1320px;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+background-color:#fff9f3;
+
+}
+
+.header button{
+background-color: orange;
+color: white;
+transition-duration: 3s;
+width: Fixed (88px)px;
+height: Fixed (48px)px;
+top: 24px;
+left: 1308px;
+padding: 16px 30px 16px 30px;
+gap: 10px;
+border-radius: 50px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.header button:hover{
+background-color:#2bd810;
+cursor: pointer;
+}
+
+.categories{
+display: flex;
+align-items:center;
+gap: 50px;
+background-color: white;
+width: 760px;
+}
+
+.categories img{
+padding-right: 5px;
+}
+
+.account{
+display: flex;
+align-items: center;
+
+}
+
+.shopping{
+display: flex;
+align-items:center;
+padding-left: 15px;
+
+}
+
+.menu{
+    display: flex;
+    background-color:#fff9f3;
+    gap: 48px;
+    padding-left: 50px;
+}
+
+.menu p{
+    transition: all 2s;
+
+}
+
+.menu p:hover{
+ color:#EB8426;
+}
+
+.main{
+display: flex;
+padding-top: 24px;
+gap: 24px;
+}
+
+.shoes{
+background-image: url(./unsplash_mO-_iF_FkCk.png);
+width: 424px;
+height: 180px;
+transition-duration: 3s;
+}
+
+.shoes:hover{
+    transform: scale(120%);
+}
+
+.shoes p{
+    padding-left: 15px;
+padding-top: 140px;
+color:white;
+}
+
+.home{
+background-image:url(./unsplash_gDrUY7QUeng.png);
+width: 424px;
+height: 180px;
+transition-duration: 3s;
+}
+
+.home:hover{
+    transform: scale(120%);
+}
+
+.home p{
+    padding-left: 15px;
+    padding-top: 140px;
+    color:white;
+}
+
+.art{
+background-image:url(./unsplash_q4LIvI9NN6Y.png);
+width: 424px;
+height: 180px;
+transition-duration: 3s;
+}
+
+.art:hover{
+    transform: scale(120%);
+}
+
+.art p{
+    padding-left: 15px;
+    padding-top: 140px;
+    color:white;
+}
+
+
+
+.cart{
+padding-top: 24px;
+transition: all 3s;
+}
+
+.cart img{
+transition: all 3s;
+}
+
+.cart img:hover{
+    transform: scale(120%);
+}
+
+.cartes{
+display: flex;
+padding-top: 48px;
+gap: 24px;
+}
+
+.community{
+    width: 424px;
+    height: 180px;
+    display: flex;
+    background-color:rgb(244, 244, 244);
+    gap: 74px;
+
+}
